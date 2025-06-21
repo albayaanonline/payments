@@ -116,4 +116,4 @@ export async function GET(request: NextRequest){
         console.error('Error confirming payment:', error.response ? error.response.data : error.message);
         res.status(500).json({ error: 'Internal Server Error' });
       }
-}
+            }
